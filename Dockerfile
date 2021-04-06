@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8
+FROM adoptopenjdk/openjdk16
 
 LABEL maintainer "Viktor Adam <rycus86@gmail.com>"
 
