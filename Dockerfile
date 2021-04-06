@@ -13,8 +13,8 @@ RUN  \
   && rm -rf /var/lib/apt/lists/* \
   && useradd -ms /bin/bash developer
 
-ARG idea_source=https://download.jetbrains.com/idea/ideaIC-${IDEA_BUILD}.tar.gz
-ARG idea_local_dir=.IdeaIC${IDEA_VERSION}
+ARG idea_source=https://download.jetbrains.com/idea/ideaIU-${IDEA_BUILD}.tar.gz
+ARG idea_local_dir=.IdeaIU${IDEA_VERSION}
 
 WORKDIR /opt/idea
 
